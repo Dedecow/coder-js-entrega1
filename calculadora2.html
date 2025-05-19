@@ -17,18 +17,18 @@
         function mostrarTaboada(){
             let n = parseFloat(prompt(' Digite um número: '));
             let msg = '';
-            if (!isNaN(n)) { // Adicionando uma verificação para garantir que 'n' é um número
+            if (!isNaN(n)) { 
                 for(let i = 0; i <= 1000; i++){
-                    msg += " valor qualquer <br> pula linha " + (i + 1) + "<br>";
+                    msg += `${n} x ${i} = ${(n*1)} <br>`;
                 }
-                output.innerHTML = msg; // Movendo para dentro da função
+                output.innerHTML = msg;
             } else {
                 output.innerHTML = 'Por favor, digite um número válido.';
             }
         }
 
         function limparTaboada(){
-            output.innerHTML = ''; // Função para limpar o conteúdo
+            output.innerHTML = '';
         }
     </script>
 </body>
