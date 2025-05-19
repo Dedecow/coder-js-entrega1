@@ -9,23 +9,27 @@
     <h1>Funcoes Taboada</h1>
 
     <button onclick="mostrarTaboada()">Mostrar Taboada</button>
-    <button>Limpar Taboada</button>
+    <button onclick="limparTaboada()">Limpar Taboada</button>
     <div id="output"></div>
     <script>
-        let output = document.getElementById("output")
+        let output = document.getElementById("output");
 
         function mostrarTaboada(){
-            
-            let n = parseFloat(prompt( ' Digite um número: '))
-            let msg = ' ';
-            for(let i = 0; i <= 1000; i++){
-
+            let n = parseFloat(prompt(' Digite um número: '));
+            let msg = '';
+            if (!isNaN(n)) { // Adicionando uma verificação para garantir que 'n' é um número
+                for(let i = 0; i <= 1000; i++){
+                    msg += " valor qualquer <br> pula linha " + (i + 1) + "<br>";
+                }
+                output.innerHTML = msg; // Movendo para dentro da função
+            } else {
+                output.innerHTML = 'Por favor, digite um número válido.';
             }
-            msg += " valor qualquer <br> pula linha" +1 <br>
         }
-        output.innerHTML = msg;
 
-
+        function limparTaboada(){
+            output.innerHTML = ''; // Função para limpar o conteúdo
+        }
     </script>
 </body>
 </html>
