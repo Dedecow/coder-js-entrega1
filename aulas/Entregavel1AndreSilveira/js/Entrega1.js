@@ -46,3 +46,4 @@ function dadosDigitados() {
     alert (mensagem);
     console.log('Dados globais:', {nomeDigitado, emailDigitado, rendaDigitada})
 }
+dadosDigitados()
