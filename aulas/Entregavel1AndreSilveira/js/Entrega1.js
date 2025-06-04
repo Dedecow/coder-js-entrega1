@@ -34,3 +34,15 @@ function salvarRendaTabela(){
     )
 }
 salvarRendaTabela();
+
+function dadosDigitados() {
+    const mensagem =`
+    DADOS PARA SIMULAÇÂO:
+    -------------------------------
+    NOME: ${nomeDigitado}
+    EMAIL: ${emailDigitado}
+    RENDA: ${rendaDigitada}
+    `;
+    alert (mensagem);
+    console.log('Dados globais:', {nomeDigitado, emailDigitado, rendaDigitada})
+}
