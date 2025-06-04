@@ -41,17 +41,18 @@ Apenas aqueles que agreguem valor à lógica de sua aplicação
 
 A interação do simulador será feita integralmente sobre a Consola JS
 
-Descreva no documento HTML com um ou dois parágrafos, a ideia geral do seu simulador
+Descreva no documento HTML com um ou dois parágrafos, a ideia geral do seu simulador - OK
 
-Crie pelo menos 3 funções seguindo o algoritmo básico de todo programa (entradas de dados, processamento de dados e mostrar os resultados de saída dos mesmos.)
+Crie pelo menos 3 funções seguindo o algoritmo básico de todo programa (entradas de dados, processamento de dados e mostrar os resultados de saída dos mesmos.) - FALTA
 
-Faça chamadas (invocar) às funções que você usou em seu simulador
+Faça chamadas (invocar) às funções que você usou em seu simulador - OK
 
 Seu projeto mudará conforme você aprende mais características de JS. O que não conseguir agora, emule da melhor forma possível com variáveis, constantes e/ou arrays
 
-Defina mensagens claras a serem mostradas nas caixas de diálogo. Concatene textos com variáveis, e realize saltos de linha em textos extensos. Isso facilitará sua leitura
+Defina mensagens claras a serem mostradas nas caixas de diálogo. Concatene textos com variáveis, e realize saltos de linha em textos extensos. Isso facilitará sua leitura - OK
 
-Critérios de avaliação
+Critérios de avaliação:
+
 Estrutura HTML e arquivo JS
 A estrutura HTML está completa e executada com boas práticas ou utiliza o starter template do Bootstrap ou outro framework para o uso adequado de HTML5 *. O arquivo JS está corretamente referenciado no HTML.
 
