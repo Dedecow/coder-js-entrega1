@@ -33,3 +33,4 @@ function salvarRendaTabela(){
         `Renda registrada para simulação de investimentos foi ${rendaDigitada}`
     )
 }
+salvarRendaTabela();
