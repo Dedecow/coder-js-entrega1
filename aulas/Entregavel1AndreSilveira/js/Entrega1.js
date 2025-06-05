@@ -55,7 +55,7 @@ function preencherInvestimentosPrompt() {
 
 
     for (let i = 0; i < numInvestimentos; i++) {
-        console.log(`\n--- Coletando dados para o ${ i + 1}º investimento ---`);
+        console.log(`--- Coletando dados para o ${ i + 1}º investimento ---`);
 
         const nomeInput = prompt(`Digite o nome do ${i + 1}º investimento:`);
         const rendimentoStrInput = prompt(`Digite o rendimento esperado (ex: 0.05 para 5%, ou 20.60/29.35 para razão):`);
