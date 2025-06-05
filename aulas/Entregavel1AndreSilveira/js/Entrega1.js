@@ -48,7 +48,7 @@ function dadosDigitados() {
 dadosDigitados()
 
 function validarDadosInvestimento(){
-
+    
 }
 
 function preencherInvestimentosPrompt() {
