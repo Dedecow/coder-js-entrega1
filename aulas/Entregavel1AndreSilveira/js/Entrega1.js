@@ -66,7 +66,7 @@ function preencherInvestimentosPrompt() {
         const investimentoValidado = validarDadosInvestimento(nomeInput, rendimentoStrInput, riscoInput);
 
         if (investimentoValidado) {
-            investimentosColetados.push(investimentoValidado); // Adiciona à array LOCAL
+            investimentosColetados.push(investimentoValidado); 
             console.log(`Investimento "${investimentoValidado.nome}" adicionado com sucesso!`);
         } else {
             console.warn(`Dados inválidos para o ${i + 1}º investimento. Não foi adicionado.`);
