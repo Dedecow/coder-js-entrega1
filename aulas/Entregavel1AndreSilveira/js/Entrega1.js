@@ -47,6 +47,10 @@ function dadosDigitados() {
 }
 dadosDigitados()
 
+function validarDadosInvestimento(){
+
+}
+
 function preencherInvestimentosPrompt() {
     const investimentosColetados = [];
 
@@ -67,7 +71,7 @@ function preencherInvestimentosPrompt() {
             investimentosColetados.push(investimentoValidado); 
             console.log(`Investimento "${investimentoValidado.nome}" adicionado com sucesso!`);
         } else {
-            console.warn(`Dados inválidos para o ${i + 1}º investimento. Não foi adicionado.`);
+            console.log(`Dados inválidos para o ${i + 1}º investimento. Não foi adicionado.`);
         }
     }
     console.log('\n--- Preenchimento de investimentos concluído ---');
