@@ -51,6 +51,7 @@ function validarDadosInvestimento(){
     
 }
 
+/*
 function preencherInvestimentosPrompt() {
     const investimentosColetados = [];
 
@@ -78,3 +79,4 @@ function preencherInvestimentosPrompt() {
 
     return investimentosColetados;
 }
+*/
