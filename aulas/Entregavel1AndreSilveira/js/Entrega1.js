@@ -47,10 +47,36 @@ function dadosDigitados() {
 }
 dadosDigitados()
 
-function validarDadosInvestimento(){
-    
+
+//TABELA INVESTIMENTOS
+
+function dadosInvestimentosPrompt(numInvestimentos){
+    //Como eu saio do número de investimentos digitados para cada investimento? como chamo o índice da array numINvestimentos?
+    console.log(`Coletando dados para o investimento ${numInvestimento}º investimento. `)
+    const nomeInput = prompt(`Digite o nome do ${numInvestimento}º investimento. `)
+    const rendimentoInput = prompt(`Digite o rendimento esperado do ${numInvestimento}º investimento. `)   
+    const riscoInput = prompt(`No ${numInvestimento}º você corre o risco de tirar menos do que investiu? `)   
+
+    return{
+        nome:nomeInput,
+        rendimento:rendimentoInput,
+        risco:riscoInput
+    };
 }
 
+function validarDadosInvestimento(){
+    //Que tipo de validação eu preciso aplicar nesse caso, afinal tudo que vem digitado é string
+}
+
+function preencherInvestimentos(){
+    const investimentosColetados = [];
+    const numInvestimentosStr = prompt('Quantos investimentos vamos adicionar?');
+    const numInvestimentos = parseInt(numInvestimentosStr) || 1;
+    for(let i = 0; i < numInvestimentos; i++){
+        const dadosInvestimento = dadosInvestimentosPrompt(1+i);
+
+    }
+}
 /*
 function preencherInvestimentosPrompt() {
     const investimentosColetados = [];
