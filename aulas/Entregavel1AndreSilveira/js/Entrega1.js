@@ -3,6 +3,9 @@ let emailDigitado = '';
 let rendaDigitada = '';
 
 const tbName = document.getElementById('tb-name');
+const tbEmail = document.getElementById('tb-email');
+const tbRenda = document.getElementById('tb-renda');
+
 
 function salvarNomeTabela() {
     nomeDigitado = prompt('Digite seu nome.')||'Anônimo';
@@ -13,8 +16,6 @@ function salvarNomeTabela() {
 }
 salvarNomeTabela();
 
-const tbEmail = document.getElementById('tb-email');
-
 function salvarEmailTabela() {
     emailDigitado = prompt('Digite seu email.')||'email@email.com';
     tbEmail.textContent = emailDigitado;
@@ -23,8 +24,6 @@ function salvarEmailTabela() {
     );
 }
 salvarEmailTabela();
-
-const tbRenda = document.getElementById('tb-renda');
 
 function salvarRendaTabela(){
     rendaDigitada=prompt('Digite sua renda.')||'';
@@ -47,7 +46,6 @@ function dadosDigitados() {
     console.log('Dados globais:', {nomeDigitado, emailDigitado, rendaDigitada})
 }
 dadosDigitados()
-
 
 function preencherInvestimentosPrompt() {
     const investimentosColetados = [];
