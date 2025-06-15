@@ -1,0 +1,35 @@
+Atividade Prática
+Vamos começar a praticar antes da aula ao vivo?
+Colocando em Prática o que Você Aprendeu
+Esses desafios são a oportunidade perfeita para ir além do conteúdo da unidade, desafiar suas habilidades e expandir sua compreensão dos conceitos. Quanto mais você praticar, mais seguro(a) e preparado(a) estará para os próximos passos da sua jornada de aprendizado.
+Com tudo que você aprendeu nessa unidade, você já pode solucionar os desafios propostos aqui, vamos tentar?
+
+Atividade prática: Usando funções de ordem superior
+Consigna
+
+Com o array de produtos criado, vamos realizar certas funcionalidades com o objetivo de filtrar, buscar, atualizar preços de produtos, entre outras que com suas necessidades você possa desenvolver.
+
+Utilize o método find do array para buscar se um produto está no nosso array.
+
+Filtre os produtos seguindo um critério, por exemplo, que o nome de um produto contenha uma palavra ou parte dela. Também pode filtrar por preço, quantidade, etc.
+
+Utilize o método map para atualizar o preço em 21% adicionando o IVA ou outro valor de aumento que deseje aplicar sobre cada um dos produtos, obtendo um novo array de produtos atualizado.
+
+Formato
+
+Página HTML e código fonte em JavaScript.
+
+Aspectos a incluir
+
+Arquivo HTML e Arquivo JS, referenciado no HTML pela tag
+
+
+Copiar
+≤script src="js/meuarquivo.js">≤ /script>
+que inclua a definição de um algoritmo em JavaScript necessário.
+
+Sugestões
+
+Ao buscar ou filtrar produtos, solicite os dados através de um prompt() e mostre a informação em um alert ou por console.
+
+Veja a resolução dos desafios aqui, mas tente por sua conta antes, combinado?
