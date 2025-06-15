@@ -1,0 +1,31 @@
+
+Atividade prática: Interagir com HTML
+Instrução
+
+Vamos praticar o conceito de objetos:
+
+Criar elementos manipulando o DOM a partir das informações dos seus objetos.
+
+Modificar etiquetas existentes em função do resultado de operações.
+
+Formato
+
+Página HTML e código fonte em JavaScript.
+
+Aspectos a incluir
+
+Arquivo HTML e Arquivo JS, referenciado no HTML pela etiqueta ≤script src="js/meuarquivo.js">≤/script>, que inclua a definição de um algoritmo em JavaScript que opere sobre o DOM, modificando, adicionando ou eliminando elementos.
+
+Sugestões
+
+Geralmente, identificamos um único elemento do DOM com o atributo id e um conjunto associado por class.
+
+Exemplo
+
+Podemos criar elementos HTML em função do listado dos nossos objetos identificados na aula 6.
+
+Estabelecer uma mensagem de boas-vindas aleatória usando um array de mensagens.
+
+Capturar uma ou mais entradas por prompt() e mostrá-las no HTML, modificando o DOM.
+
+Na entrega 2 depois da aula ao vivo dessa unidade, você deverá agregar o conceito de objetos no seu projeto.
